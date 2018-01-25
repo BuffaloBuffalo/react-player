@@ -144,3 +144,5 @@ export const DEPRECATED_CONFIG_PROPS = [
   'fileConfig',
   'wistiaConfig'
 ]
+
+export const playerLimitedProps = { ...propTypes, players: array.isRequired }
